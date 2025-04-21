@@ -2,6 +2,7 @@ import React from "react";
 import foodDel from "../Assets/portfolio/food-del.png";
 import geminiClone from "../Assets/portfolio/gemini-clone.png";
 import dashboard from "../Assets/portfolio/dashboard.png";
+import portfolioReact from "../Assets/portfolio/reactPortfolio.png";
 
 const MyPortfolio = () => {
   const portfolios = [
@@ -22,6 +23,12 @@ const MyPortfolio = () => {
       src: dashboard,
       codeLink: "https://github.com/thakuravishek/adminDashboard",
       demoLink: "https://admin-dashboard-kappa-one-88.vercel.app/",
+    },
+    {
+      id: 4,
+      src: portfolioReact,
+      codeLink: "https://github.com/thakuravishek/portfolio-react",
+      demoLink: "https://github.com/thakuravishek/portfolio-react",
     },
   ];
   return (
