@@ -28,7 +28,7 @@ const MyPortfolio = () => {
       id: 4,
       src: portfolioReact,
       codeLink: "https://github.com/thakuravishek/portfolio-react",
-      demoLink: "https://github.com/thakuravishek/portfolio-react",
+      demoLink: "https://portfolio-react-mu-blond.vercel.app/",
     },
   ];
   return (
